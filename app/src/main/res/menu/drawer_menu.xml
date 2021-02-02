@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btnProfile"
+            android:icon="@drawable/icon_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/btnFollowUs"
+            android:icon="@drawable/icon_follow_us"
+            android:title="Follow Us" />
+        <item
+            android:id="@+id/btnRateUs"
+            android:icon="@drawable/icon_rate_us"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/btnLogout"
+            android:icon="@drawable/icon_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
